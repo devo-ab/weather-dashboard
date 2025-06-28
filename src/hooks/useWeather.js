@@ -88,3 +88,5 @@ const useWeather = () => {
     loading,
   };
 };
+
+export default useWeather;
