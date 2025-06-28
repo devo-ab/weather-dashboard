@@ -1,11 +1,13 @@
-import { useWeather } from "../../hooks";
+import { useContext } from "react";
+
 import AddToFavorite from "./AddToFavorite";
 import WeatherCondition from "./WeatherCondition";
 import WeatherHeadline from "./WeatherHeadline";
+import { WeatherContext } from "../../context/WeatherContext";
 
 export default function WeatherBoard() {
-  const { loading, error, weatherData } = useWeather();
-  console.log(loading, error, weatherData)
+  const { weatherData } = useContext(WeatherContext);
+  console.log(weatherData)
 
   return (
     <div className="container">
