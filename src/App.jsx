@@ -13,8 +13,6 @@ function App() {
         </main>
       </div>
     </div>
-    11c1d059d0bc11c8c02d4d2c646c5d87
-    https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
   );
 }
 
