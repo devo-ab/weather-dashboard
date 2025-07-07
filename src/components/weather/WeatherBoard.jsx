@@ -6,7 +6,7 @@ import WeatherHeadline from "./WeatherHeadline";
 import { WeatherContext } from "../../context/WeatherContext";
 
 export default function WeatherBoard() {
-  const { weatherData, loading } = useContext(WeatherContext);
+  const { loading } = useContext(WeatherContext);
 
   return (
     <div className="container">
